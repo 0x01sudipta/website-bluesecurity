@@ -1,0 +1,203 @@
+/* background image  */
+html { 
+    background: url(bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+ 
+
+body {
+    overflow-y: scroll; /*scroll bar*/
+  }
+
+
+  /* nav bar setting (home, services, about, contact us) */
+    nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;    
+  }
+  /* nav bar setting  */
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  /* nav list item setting  */
+  nav li {
+    margin-left: 20px;
+  }
+  
+  /* nav link setting  */
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* logo at the top left  */
+  nav .logo {
+    float: left;
+  }
+  
+  /* Blue Security text at the top center  */
+  nav h1 {
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    flex: 1;
+    font-weight: bold;
+  }
+
+  /* 3 grid container  */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin: 50px auto;
+    max-width: 800px;
+
+  }
+  
+  /* 3 grid container  */
+  .grid-item {
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  /* footer  */
+  footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  
+  /* Change background color of nav links on hover
+nav ul li:hover {
+    background-color: #242929bd;
+  } */
+  
+
+  /* Change background color of grid items on hover */
+  .grid-item:hover {
+    background-color: #242929bd;
+  }
+  
+  /* Set the font family for the entire website */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  /* Set the font family for the headings */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  /* Set the font family for the navigation links */
+  nav ul li a {
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+  }
+  
+  /* Set the font family for the main content */
+  .content {
+    font-family: 'Lato', sans-serif;
+  }
+
+  
+
+/* responsible  */
+
+/* Set the default styles for desktop devices */
+/* ... */
+
+/* Adjust the layout and styling for smaller screens */
+@media (max-width: 768px) {
+    /* Set the font size and line height for smaller screens */
+    body {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    /* Adjust the padding and margin for the navigation links */
+    nav ul {
+      padding: 0;
+      margin: 0;
+    }
+    nav ul li {
+      display: block;
+      margin: 10px 0;
+    }
+    nav ul li a {
+      display: block;
+      padding: 10px 0;
+    }   
+      
+  }
+  
+  /* responsiveness  */
+
+  
+  /* Adjust the layout for the video */
+  /* video {
+    width: 100%;
+    height: auto;
+  }
+   */
+  /* Hide the logo on smaller screens
+  .logo {
+    display: none;
+  } */
+
+#contact, #about-real{
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* background color of content of tis, pt and va page  */
+.contentt{
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* header padding */
+.contentt2{
+  padding: 10px;
+  margin: 10px;
+}
+
+
+/* all links animation */
+a:hover{
+  background-color: #242929bd;
+  color: yellow;
+}
+
+a{
+  color: lime;
+}
